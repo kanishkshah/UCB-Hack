@@ -1,0 +1,96 @@
+{
+  "id": "91f68f0e-3b14-4a16-9027-7124bafd70c2",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7ab7f117-c6e4-4e47-9592-0e109e9be047",
+          "name": "public-img",
+          "required": false,
+          "dataType": "",
+          "value": "{\n  \"component\": \"image\",\n  \"data\": {\n\t\"url\": \"https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDQ2NWdrZTJmZWJpZjFvNnB4NDdjMHQ2ZTlvaXl3djNtMXpvaGhzMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UXBmXisK0KF2g/giphy.gif\",\n\t\"alt\": \"This is a dog\"\n  }\n}",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5b046d3e-9ac1-4b0e-94ac-082a31885341",
+          "name": "publi-img2",
+          "required": false,
+          "dataType": "",
+          "value": "{\n  \"component\": \"image\",\n  \"data\": {\n\t\"url\": \"https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3dsZHJ5OGswcjBieGJuNGw0ejl0amt4ZHNjcGxxc2o4dzVjbGRnYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QAxmlLMcCFHeUsX1KW/giphy.gif\",\n\t\"alt\": \"This is a dog\"\n  }\n}",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2df91c1a-5d94-4523-95b7-771a26fa3f7c",
+          "name": "language",
+          "required": false,
+          "dataType": "@sys.language",
+          "value": "$language",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d65547f7-f054-4362-9784-9d7e3a77e1e1",
+          "name": "public-options",
+          "required": false,
+          "dataType": "",
+          "value": "{\n  \"type\": \"options\",\n  \"id\": \"options\",\n  \"data\": {\n    \"options\": [\n      { \"label\": \"Start Module\", \"value\": \"Start Module\"},\n      { \"label\": \"Ask any Question\", \"value\": \"Ask any Question\"},\n      { \"label\": \"Summarize Module 1\", \"value\": \"Summarize Module 1\"}\n    ]\n  }\n}",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "#HappyStrong #Wave Hi I\u0027m Florence, built for the Berkeley Ai Hackathon. I\u0027m a digital human assistant trained for helping users get their nursing license in the US. \n\nYou can start @showCards(options) learning about the Nursing Programs, Start Modules or answer any question related to the course. \n\nHow can I help you today?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

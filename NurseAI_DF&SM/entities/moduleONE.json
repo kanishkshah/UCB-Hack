@@ -1,0 +1,9 @@
+{
+  "id": "de5f2c00-ebb6-400a-972e-403f5a17d840",
+  "name": "moduleONE",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

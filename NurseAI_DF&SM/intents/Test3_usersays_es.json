@@ -1,0 +1,36 @@
+[
+  {
+    "id": "24ba86be-d819-42cb-911d-ee519d4b643a",
+    "data": [
+      {
+        "text": "option ",
+        "userDefined": false
+      },
+      {
+        "text": "three",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "da5eeca3-29c9-419c-9351-262c5f962382",
+    "data": [
+      {
+        "text": "option 3",
+        "meta": "@sys.music-artist",
+        "alias": "music-artist",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "id": "2a499463-6841-4e91-a35d-4683eb7fa859",
+    "data": [
+      {
+        "text": "LETS START MODULE ONE",
+        "meta": "@moduleONE",
+        "alias": "moduleONE",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "574dfe59-218f-42e3-829f-d2e280975f75",
+    "data": [
+      {
+        "text": "LETS",
+        "meta": "@sys.language",
+        "alias": "language",
+        "userDefined": false
+      },
+      {
+        "text": " START MODULE ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2ed4e329-ffad-4112-9cf5-3154c5dd8280",
+    "data": [
+      {
+        "text": "lets start ",
+        "userDefined": false
+      },
+      {
+        "text": "the course",
+        "meta": "@sys.music-artist",
+        "alias": "music-artist",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "324b564c-4924-4470-bd0d-5f4f6999f534",
+    "data": [
+      {
+        "text": "first module",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "662bf42d-73b2-4901-8341-b3cb70c98ed2",
+    "data": [
+      {
+        "text": "module one",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "dcc3a8a4-d524-4f35-b517-06ac52e00509",
+    "data": [
+      {
+        "text": "lets",
+        "meta": "@sys.language",
+        "alias": "language",
+        "userDefined": false
+      },
+      {
+        "text": " start",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

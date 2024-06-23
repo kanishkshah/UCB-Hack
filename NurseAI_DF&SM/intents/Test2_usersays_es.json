@@ -1,0 +1,56 @@
+[
+  {
+    "id": "5cec29b3-41bc-495e-85d1-aa0af819aeac",
+    "data": [
+      {
+        "text": "Pulse Sync Monitor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "240d4966-940f-42d6-9af6-a1e588e0e170",
+    "data": [
+      {
+        "text": "semi manual",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9b57db18-7d04-45aa-9994-4f0f8eb75359",
+    "data": [
+      {
+        "text": "option four",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9568c548-474b-48e3-897a-314e0b1fd59a",
+    "data": [
+      {
+        "text": "four",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "3fb7b7f7-4690-45fc-a6f5-6b068fc9e916",
+  "name": "seis",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

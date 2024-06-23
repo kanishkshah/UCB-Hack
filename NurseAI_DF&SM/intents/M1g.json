@@ -1,0 +1,82 @@
+{
+  "id": "49ccf81b-4354-47f0-8368-74b25edf11a8",
+  "parentId": "c2fd2be8-174e-4584-8afd-164e08e5bae7",
+  "rootParentId": "c2fd2be8-174e-4584-8afd-164e08e5bae7",
+  "name": "M1g",
+  "auto": true,
+  "contexts": [
+    "M1-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "M1.M1-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3f36f790-4ad4-4497-8d8e-66455eb47e07",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "60239f67-b24d-4f60-bc58-69ed9440e6af",
+          "name": "music-artist",
+          "required": false,
+          "dataType": "@sys.music-artist",
+          "value": "$music-artist",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a5bef63c-b87a-431f-88a6-0f8b3afa9784",
+          "name": "public-b2",
+          "required": false,
+          "dataType": "",
+          "value": "https://www.verywellhealth.com/thmb/6-qgaVzGlfAoFWoN3KipCo7YVOs\u003d/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/VWH-JRBeed-WhatAreSystolicandDiastolicBloodPressures-Standard-0793c1def16048fda800fa2a1a6b3be4.jpg",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "@hidecards() Let\u0027s dive deep into Blood pressure. This procedure is the measurement of the force exerted by circulating blood on the walls of the arteries as the heart pumps blood through the body. It is expressed in millimeters of mercury and consists of two numbers: @showCards(b2)\n\nThe first number meassurment is the Systolic Pressure: The maximum pressure during heart contraction (systole), the top number in a blood pressure reading.\n\nThe second meassurment is the Diastolic Pressure is The pressure when the heart is at rest between beats (diastole), the bottom number in a reading. For instance, a reading of 120/80 mmHg indicates a systolic pressure of 120 mmHg and a diastolic pressure of 80 mmHg.  @hidecards()"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "60dfd751-b793-4501-b440-e21bbb60d4d0",
+  "name": "Why",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Why-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "According to the American Association of Colleges of Nursing, Nearly seventy eight thousand qualified applications were not offered spots at nursing schools last year because of staffing shortages as the main reason why nursing schools are not able to accept more students who want to become registered nurses."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

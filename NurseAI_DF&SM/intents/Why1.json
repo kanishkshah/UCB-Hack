@@ -1,0 +1,39 @@
+{
+  "id": "03634530-6181-4727-b816-8e6ded9945b6",
+  "parentId": "60dfd751-b793-4501-b440-e21bbb60d4d0",
+  "rootParentId": "60dfd751-b793-4501-b440-e21bbb60d4d0",
+  "name": "Why1",
+  "auto": true,
+  "contexts": [
+    "Why-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Why.Why-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "The programs are contending with a lack of faculty, clinical placements for students and preceptors who supervise the students during their rotations at health care providers. The US Chamber of Commerce reports that in April 2024, nearly 50% of jobs vacancies in the Healthcare sector we\u0027re unfilled."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

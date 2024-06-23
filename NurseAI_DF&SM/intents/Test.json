@@ -1,0 +1,55 @@
+{
+  "id": "d8b13542-9911-4263-bc10-db152c1d8189",
+  "name": "Test",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Test-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "972d6b8a-99e2-4186-b44d-81e9b9b4bf9b",
+          "name": "public-options2",
+          "required": false,
+          "dataType": "",
+          "value": "{\n  \"type\": \"options\",\n  \"id\": \"options\",\n  \"data\": {\n    \"options\": [\n      { \"label\": \"1. Digital Monitor\", \"value\": \"Digital Monitor\"},\n      { \"label\": \"2. Ambulatory Monitor\", \"value\": \"Ambulatory Monitor\"},\n      { \"label\": \"3. Wrist Monitor\", \"value\": \"Wrist Monitor\"},\n      { \"label\": \"4. Pulse Sync Monitor\", \"value\": \"Pulse Sync Monitor\"}\n    ]\n  }\n}",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Great, let\u0027s start with question A. \n\nWhich of the following devices cannot measure blood pressure?\n@showCards(options2)\n\nOption One, Digital Monitor.\nOption Two, Ambulatory Monitor.\nOption Three, Wrist Monitor.\nOption 4Four, Pulse Sync Monitor."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "37542f58-3f66-4fed-805a-fa84c1b13c4e",
+    "data": [
+      {
+        "text": "Good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "adc0d093-ac0c-44d2-a2d8-1cc31de918d1",
+    "data": [
+      {
+        "text": "continue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ed58e9b7-3ba8-4859-906e-ebf4036201de",
+    "data": [
+      {
+        "text": "awesome",
+        "meta": "@sys.music-artist",
+        "alias": "music-artist",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "075b26d8-355c-4955-9b6b-13ae7a72be0d",
+    "data": [
+      {
+        "text": "nice",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "df7e8fb8-2f54-4f75-b242-a6933b749a02",
+    "data": [
+      {
+        "text": "great",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

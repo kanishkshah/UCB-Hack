@@ -1,0 +1,139 @@
+{
+  "id": "c2fd2be8-174e-4584-8afd-164e08e5bae7",
+  "name": "M1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "M1-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8d33de41-4609-4832-871f-53b350340904",
+          "name": "language",
+          "required": false,
+          "dataType": "@sys.language",
+          "value": "$language",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b4c168b8-e712-401f-aff3-242a47e5a161",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "dee025c0-144f-463d-a19b-7bb5da1a70e8",
+          "name": "public-bp",
+          "required": false,
+          "dataType": "",
+          "value": "{\n  \"component\": \"image\",\n  \"data\": {\n\t\"url\": \"https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2V0YnhrZmZpenNsNXZocjJqaDFxbHRiYmZvM21oNW9naGNncmN0ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TtyBk1ApfRPzi/giphy.gif\",\n\t\"alt\": \"This is a dog\"\n  }\n}",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a7840ce8-c06c-425b-954b-ef15b420da2a",
+          "name": "public-bp2",
+          "required": false,
+          "dataType": "",
+          "value": "{\n  \"component\": \"image\",\n  \"data\": {\n\t\"url\": \"https://www.vitalitymedical.com/media/blood-pressure-monitoring-devices.jpg\",\n\t\"alt\": \"This is a dog\"\n  }\n}",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7203ac5d-78af-4778-bdc0-2bbf1f20b7e2",
+          "name": "music-artist",
+          "required": false,
+          "dataType": "@sys.music-artist",
+          "value": "$music-artist",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1137222b-672c-44be-adae-0fde5ef16c54",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "35697a77-d64b-4782-838f-de27c39bf962",
+          "name": "moduleONE",
+          "required": true,
+          "dataType": "@moduleONE",
+          "value": "$moduleONE",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Welcome to Module one. In this chapter we are focused on Blood Pressure Measurement @showCards(bp) This module is going to help healthcare students in the clinical setting measure blood pressure consistently and accurately every time. @hidecards() In the module we are going to explore Blood Pressure measurement devices @showCards(bp2): manual. semi-automated. and automated."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

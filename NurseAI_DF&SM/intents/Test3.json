@@ -1,0 +1,68 @@
+{
+  "id": "670f6b89-f8fb-4522-b11c-623faa9dfe59",
+  "parentId": "e51f03a1-14c7-426d-8fbc-846daca5a262",
+  "rootParentId": "d8b13542-9911-4263-bc10-db152c1d8189",
+  "name": "Test3",
+  "auto": true,
+  "contexts": [
+    "Test2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Test.Test-custom.Test2-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7bc59775-69ef-4b89-bfe0-bfd20504ee86",
+          "name": "person",
+          "required": false,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e35c533a-333b-471d-8f10-74a81518705a",
+          "name": "music-artist",
+          "required": false,
+          "dataType": "@sys.music-artist",
+          "value": "$music-artist",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Congratulations, you have completed module 1 and you\u0027re ready to get started with Syringe Use. I\u0027m here to help!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
