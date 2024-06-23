@@ -9,7 +9,7 @@
   "disableStackdriverLogs": true,
   "defaultTimezone": "America/New_York",
   "webhook": {
-    "url": "https://backimpi.businessadvocacy.shop/hello",
+    "url": "https://backimpi.api.shop/hello",
     "username": "",
     "headers": {},
     "available": true,
