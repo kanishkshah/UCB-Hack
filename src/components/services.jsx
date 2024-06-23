@@ -1,30 +1,19 @@
 import React from "react";
 
 export const Services = (props) => {
+ // var perf =require('./index.html');
   return (
-    <div id="services" className="text-center">
-      <div className="container">
-        <div className="section-title">
-          <h2>Our Services</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+    <div id="services" className="text-center" style={{maxHeight:"500px"}}>
+      <div className="container" style={{maxHeight:"400px"}}>
+      <div className="col-md-10 col-md-offset-1 section-title">
+          <h2>Nursia Chatbot</h2>
         </div>
-        <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
-                  {" "}
-                  <i className={d.icon}></i>
-                  <div className="service-desc">
-                    <h3>{d.name}</h3>
-                    <p>{d.text}</p>
-                  </div>
-                </div>
-              ))
-            : "loading"}
-        </div>
+        <iframe
+      src="/template.html"
+      style={{ border: 'none', height:'200px' }}
+      title="Embedded HTML"
+    />
+
       </div>
     </div>
   );
