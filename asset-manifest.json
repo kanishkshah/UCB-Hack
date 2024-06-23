@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/UCB-Hack/static/css/main.ae42ac5f.css",
-    "main.js": "/UCB-Hack/static/js/main.6758d182.js",
+    "main.js": "/UCB-Hack/static/js/main.7b354d1a.js",
     "index.html": "/UCB-Hack/index.html",
     "main.ae42ac5f.css.map": "/UCB-Hack/static/css/main.ae42ac5f.css.map",
-    "main.6758d182.js.map": "/UCB-Hack/static/js/main.6758d182.js.map"
+    "main.7b354d1a.js.map": "/UCB-Hack/static/js/main.7b354d1a.js.map"
   },
   "entrypoints": [
     "static/css/main.ae42ac5f.css",
-    "static/js/main.6758d182.js"
+    "static/js/main.7b354d1a.js"
   ]
 }
